@@ -1,0 +1,1 @@
+This current project re creates the google hompage. the hompage will look like google but will not function like it. I will use the HTML code that I have learnt before to build the page. I will inspect the google hompage and look at the code to see how I can mimic it.
