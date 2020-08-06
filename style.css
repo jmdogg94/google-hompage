@@ -1,0 +1,160 @@
+* {
+  font-family: arial,sans-serif;
+  font-size: 13px;
+  margin: 0;
+}
+
+.topnav {
+    list-style-type: none;
+    font-size: 13px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    float: left;
+  }
+
+.topnav a {
+  display: inline-block;
+  padding-inline-start: 0;
+  align-items: center;
+  text-decoration: none;
+}
+
+.ndnav {
+  list-style-type: none;
+  font-size: 13px;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  float: right;
+}
+
+.ndnav a {
+  display: inline-block;
+  padding-inline-start: 0;
+  align-items: center;
+  text-decoration: none;
+}
+
+.content {
+  padding: 15px;
+  text-align: center;
+}
+
+.search {
+  padding-top: 50px;
+}
+
+img {
+  width: 300px;
+  height: 93.75px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: fixed;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.search {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    }
+
+a {
+    color: rba(0,0,0,0.87);
+    font-size: 13px;
+    padding: 7px;
+    color: #000;
+    opacity: 0.75;
+}
+
+.signin {
+   background-color: rgb(66, 133, 244);
+   color: white;
+   border-radius: 2px;
+   padding-right: 2px;
+   padding-left: 2px;
+}
+
+.searching {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 34px;
+  border-radius: 20px;
+  border: 1px solid;
+  font-size: 16px;
+  width: 436.5px;
+  padding-inline-start: 10px;
+  padding-inline-end: 10px;
+
+}
+
+.searching input{
+  border: none;
+  background-color: transparent;
+  width: 400px;
+  outline: none;
+}
+
+#button {
+    position: fixed;
+    height: 90px;
+    top: 62.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+button {
+  border: none;
+  font-size: 14px;
+  margin: 25px 5px 25px 5px;
+  padding: 10px 15px 10px 15px;
+  border-radius: 4px;
+  opacity: 0.55;
+}
+
+li {
+    display: inline;
+  }
+    
+.region {
+  position: fixed;
+  bottom: 40px;
+  background-color: #f2f2f2;
+  line-style-type: none;
+  line-height: 40px;
+  width: 100%;
+  border: solid 1px #e4e4e4
+}
+
+.region a{
+  color: rgb(95, 99, 104);
+  font-size: 14px;
+  margin-left: 30px;
+  text-decoration: none;
+}
+
+.botnav {
+    list-style-type: none;
+    line-height: 40px;
+    background-color: #f2f2f2;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border: solid 1px #e4e4e4
+   }
+
+.botnav a {
+  color: rgb(95, 99, 104);
+  font-size: 14px;
+  margin-left: 30px;
+  text-decoration: none;
+}
